@@ -1,0 +1,6 @@
+---
+- name: "Starting Kubelet Service"
+  service:
+    name: "kubelet"
+    state: started
+    enabled: yes

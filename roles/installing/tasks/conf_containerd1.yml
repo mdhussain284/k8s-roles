@@ -1,0 +1,7 @@
+---
+- name: changing entries in the containerd conf file
+  become: yes
+  replace:
+    path: /etc/containerd/config.toml
+    regexp: 'SystemdCgroup = false'
+    replace: 'SystemdCgroup = true'

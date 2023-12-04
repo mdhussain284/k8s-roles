@@ -1,0 +1,4 @@
+---
+- name: Disabling Swap on all nodes
+  become: yes
+  shell:  swapoff -a

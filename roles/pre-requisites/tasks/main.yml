@@ -1,0 +1,5 @@
+---
+- import_tasks: firewalld.yml
+- import_tasks: chronyd.yml
+- import_tasks: swapoff.yml
+- import_tasks: commenting_swap_entries.yml

@@ -1,0 +1,8 @@
+---
+- name: "Installing Kubeadm, Kubelet, and Kubectl"
+  dnf:
+    name:
+      - kubectl-1.28.0
+      - kubeadm-1.28.0
+      - kubelet-1.28.0
+    state: present

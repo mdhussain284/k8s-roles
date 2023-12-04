@@ -1,0 +1,9 @@
+---
+- name: installing docker
+  become: yes
+  dnf:
+    name:
+      - docker-ce
+      - docker-ce-cli
+      - containerd.io
+      - docker-compose-plugin

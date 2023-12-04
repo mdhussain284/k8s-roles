@@ -1,0 +1,12 @@
+---
+- import_tasks: verifying_brnetfiler.yml
+- import_tasks: configuring_kernal.yml
+- import_tasks: docker_prerequisites.yml
+- import_tasks: adding_repo.yml
+- import_tasks: installing_docker.yml
+- import_tasks: conf_containerd.yml
+- import_tasks: conf_containerd1.yml
+- import_tasks: start_svc.yml
+- import_tasks: k8s_repo.yml
+- import_tasks: installing_k8s.yml
+- import_tasks: starting_kubelet.yml

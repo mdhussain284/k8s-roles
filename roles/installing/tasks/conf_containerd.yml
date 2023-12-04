@@ -1,0 +1,6 @@
+---
+- name: configuring containerd
+  become: yes
+  lineinfile:
+    path: /etc/containerd/config.toml
+    line: 'containerd config default'

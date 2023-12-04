@@ -1,0 +1,7 @@
+---
+- name: "Installing Docker Prerequisite packages"
+  dnf:
+    name:
+      - epel-release
+      - yum-utils
+    state: latest
